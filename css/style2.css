@@ -8,12 +8,14 @@ p.ligne2
 {
 	color: blue;
 	font-size: 2em;
+	font-weight: bold;
+	text-align: right;
 
 }
 p.ligne3
 {
 	color: blue;
-	font-size: 2em;
+	font-size: 1em;
 	font-family: Impact, Verdana, sans-serif, "Arial Black", Arial;
 	font-style: italic;
 
@@ -43,4 +45,14 @@ h1 /* Utilisation de la police qu'on vient de définir sur les titres */
 	font-size: 6em;
     font-family: 'cac_champagneregular', Arial, serif;
 
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.dessous
+{
+    clear: both;
 }
