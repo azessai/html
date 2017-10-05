@@ -1,0 +1,15 @@
+p
+{
+	color: blue;
+	font-size: 150%;
+
+}
+table
+{
+	border-collapse: collapse;
+	caption-side: bottom
+}
+td, th
+{
+    border: 3px solid black;
+}
