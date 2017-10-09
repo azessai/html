@@ -3,12 +3,23 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style4.css">
 	<title>Ma page</title>
 </head>
 <body>
 	<h1>Ma belle <em>page</em></h1>
 	<p class="ligne1">Bonjour tout le monde!</p>	
+
+    <p class="myp">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada libero dolor,
+        sed sagittis purus dictum vel. Maecenas vel efficitur eros. Quisque quis purus eleifend,
+        pulvinar justo at, tempor nunc. Cras scelerisque mauris eget eros rhoncus aliquam.
+        Nam sodales sollicitudin nunc vel lacinia. Nullam lobortis velit nibh, at posuere diam efficitur sed.
+        In sed diam vitae ante dignissim volutpat ut sit amet urna. Sed lacus nisi, vulputate eu tristique eu,
+        ullamcorper sodales metus. Nullam bibendum scelerisque turpis, quis sodales mauris sagittis in.
+        Nulla et sapien fermentum, efficitur nisl sit amet, tincidunt felis.
+    </p>
+
 
 <form method="post" action="traitement.php">
 
@@ -16,7 +27,7 @@
 
        <label for="ameliorer">
 
-       Comment pensez-vous que je puisse améliorer mon site ?
+           Comment pensez-vous que je puisse <strong>améliorer</strong> mon site ?
 
        </label>
 
@@ -40,5 +51,15 @@
    <input type="datetime" /><br/>
 
 </form>
+
+    <form method="post" action="traitement.php">
+        <p>
+            Cochez les aliments que vous aimez manger :<br />
+            <input type="checkbox" name="frites" id="frites" /> <label for="frites">Frites</label><br />
+            <input type="checkbox" name="steak" id="steak" /> <label for="steak">Steak haché</label><br />
+            <input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">Epinards</label><br />
+            <input type="checkbox" name="huitres" id="huitres" checked/> <label for="huitres">Huitres</label>
+        </p>
+    </form>
 </body>
 </html>

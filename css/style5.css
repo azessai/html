@@ -1,0 +1,30 @@
+p
+{
+    font-size: 200%;
+}
+
+a:hover
+{
+    color: aqua;
+    font-weight: bold;
+}
+p:hover
+{
+    border-left: 3px solid yellow;
+}
+
+a:active, input:focus
+{
+    background-color: red;
+
+}
+
+a:visited
+{
+    color: #888888;
+}
+
+figure
+{
+    text-align: center;
+}
